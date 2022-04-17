@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * 每日温度
- * https://leetcode-cn.com/problems/daily-temperatures/
+ * <a href="https://leetcode.com/problems/daily-temperatures/">每日温度</a>
  *
  * @author liuhj
  * @date 2021/12/19 21:11

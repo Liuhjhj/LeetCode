@@ -3,8 +3,7 @@ package stack;
 import java.util.Stack;
 
 /**
- * 字符串解码
- * https://leetcode-cn.com/problems/decode-string/
+ * <a href="https://leetcode.com/problems/decode-string/">字符串解码</a>
  *
  * @author liuhj
  * @date 2022/1/14 20:13

@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 背包问题-VII
- * https://www.lintcode.com/problem/798/
- * 多重背包
+ * <a href="https://www.lintcode.com/problem/798/">背包问题-VII</a>
+ * <p>知识点: 多重背包</p>
  *
  * @author liuhj
  * @date 2022/1/5 20:03

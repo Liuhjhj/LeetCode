@@ -3,8 +3,7 @@ package stack;
 import java.util.Stack;
 
 /**
- * 逆波兰表达式求值
- * https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
+ * <a href="https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/">逆波兰表达式求值</a>
  *
  * @author liuhj
  * @date 2021/12/19 22:26

@@ -6,8 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * 前 K 个高频元素
- * https://leetcode-cn.com/problems/top-k-frequent-elements/
+ * <a href="https://leetcode-cn.com/problems/top-k-frequent-elements/">前 K 个高频元素</a>
  *
  * @author liuhjhj
  * @date 2022/3/5

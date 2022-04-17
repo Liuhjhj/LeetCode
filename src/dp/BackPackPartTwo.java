@@ -3,8 +3,7 @@ package dp;
 import java.util.Arrays;
 
 /**
- * 背包问题-II
- * https://www.lintcode.com/problem/125/
+ * <a href="https://www.lintcode.com/problem/125/">背包问题-II</a>
  *
  * @author liuhj
  * @date 2021/12/26 21:29

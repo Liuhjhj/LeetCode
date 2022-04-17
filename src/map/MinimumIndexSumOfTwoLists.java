@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 两个列表的最小索引总和
- * https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/
+ * <a href="https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/">两个列表的最小索引总和</a>
  *
  * @author liuhjhj
  * @date 2022/2/26

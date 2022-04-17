@@ -3,8 +3,7 @@ package string;
 import java.util.Arrays;
 
 /**
- * 翻转字符串中的单词
- * https://leetcode-cn.com/leetbook/read/array-and-string/crmp5/
+ * <a href="https://leetcode-cn.com/problems/reverse-words-in-a-string/">翻转字符串中的单词</a>
  *
  * @author liuhj
  * @date 2021年12月5日13:58:44

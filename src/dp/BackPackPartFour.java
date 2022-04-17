@@ -1,9 +1,8 @@
 package dp;
 
 /**
- * 背包问题-IV
- * https://www.lintcode.com/problem/562/
- * 完全背包
+ * <a href="https://www.lintcode.com/problem/562/">背包问题-IV</a>
+ * <p>知识点: 完全背包</p>
  *
  * @author liuhj
  * @date 2022/1/12 22:16

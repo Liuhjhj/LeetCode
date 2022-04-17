@@ -3,8 +3,7 @@ package dp;
 import java.util.Arrays;
 
 /**
- * 分割等和子集
- * https://leetcode-cn.com/problems/partition-equal-subset-sum/
+ * <a href="https://leetcode-cn.com/problems/partition-equal-subset-sum/">分割等和子集</a>
  *
  * @author liuhj
  * @date 2022/1/12 21:36

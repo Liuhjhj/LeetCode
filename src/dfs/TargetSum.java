@@ -1,9 +1,8 @@
 package dfs;
 
 /**
- * 目标之和
- * https://leetcode-cn.com/problems/target-sum/
- * 知识点: 深/广度优先遍历, 动态规划
+ * <a href="https://leetcode-cn.com/problems/target-sum/">目标之和</a>
+ * <p>知识点: 深/广度优先遍历, 动态规划</p>
  *
  * @author liuhj
  * @date 2021/12/25 17:54
@@ -49,7 +48,7 @@ public class TargetSum {
     public static void main(String[] args) {
         /// int[] nums = {1, 1, 1, 1, 1};
         /// int target = 3;
-        int[] nums = {1,0};
+        int[] nums = {1, 0};
         int target = 1;
         findTargetSumWays(nums, target);
         System.out.println(count);

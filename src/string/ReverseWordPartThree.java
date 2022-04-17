@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 /**
- * 反转字符串中的单词-III
- * https://leetcode-cn.com/leetbook/read/array-and-string/c8su7/
+ * <a href="https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/">反转字符串中的单词-III</a>
  *
  * @author liuhj
  * @date 2021/12/11 15:24

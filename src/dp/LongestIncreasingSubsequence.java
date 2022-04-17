@@ -1,8 +1,7 @@
 package dp;
 
 /**
- * 最长递增子序列
- * https://leetcode-cn.com/problems/longest-increasing-subsequence/
+ * <a href="https://leetcode-cn.com/problems/longest-increasing-subsequence/">最长递增子序列</a>
  *
  * @author liuhj
  * @date 2021/12/25 23:14

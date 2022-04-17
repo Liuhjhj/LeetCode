@@ -1,8 +1,7 @@
 package string;
 
 /**
- * 最长公共前缀
- * https://leetcode-cn.com/leetbook/read/array-and-string/ceda1/
+ * <a href="https://leetcode-cn.com/leetbook/read/array-and-string/ceda1/">最长公共前缀</a>
  *
  * @author liuhj
  * @date 2021年12月4日18:50:10

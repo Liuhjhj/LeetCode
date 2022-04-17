@@ -1,9 +1,8 @@
 package string;
 
 /**
- * 实现strStr()方法
- * https://leetcode-cn.com/leetbook/read/array-and-string/cm5e2/
- * 知识点: KMP算法
+ * <a href="https://leetcode-cn.com/problems/implement-strstr/">实现strStr()方法</a>
+ * <p>知识点: KMP算法</p>
  *
  * @author liuhj
  * @date 2021/12/5 17:40

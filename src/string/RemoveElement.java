@@ -1,8 +1,7 @@
 package string;
 
 /**
- * 移除元素
- * https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/
+ * <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/">移除元素</a>
  *
  * @author liuhj
  * @date 2021/12/10 21:20

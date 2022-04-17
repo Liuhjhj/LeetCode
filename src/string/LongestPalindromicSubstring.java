@@ -1,9 +1,8 @@
 package string;
 
 /**
- * 最长回文子串
- * https://leetcode-cn.com/leetbook/read/array-and-string/conm7/
- * 知识点: 动态规划
+ * <a href="https://leetcode-cn.com/leetbook/read/array-and-string/conm7/">最长回文子串</a>
+ * <p>知识点: 动态规划</p>
  *
  * @author liuhj
  * @date 2021年12月4日19:27:25

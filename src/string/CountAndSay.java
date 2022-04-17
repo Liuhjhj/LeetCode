@@ -1,8 +1,7 @@
 package string;
 
 /**
- * 外观数列
- * https://leetcode-cn.com/problems/count-and-say/
+ * <a href="https://leetcode-cn.com/problems/count-and-say/">外观数列</a>
  *
  * @author liuhjhj
  * @date 2022/4/10
@@ -17,7 +16,7 @@ public class CountAndSay {
             for (int j = 0; j < s.length(); j++) {
                 char ch = s.charAt(j);
                 int count = 1;
-                for (int k = j + 1; k < s.length() && s.charAt(k) == s.charAt(j); k++){
+                for (int k = j + 1; k < s.length() && s.charAt(k) == s.charAt(j); k++) {
                     count++;
                     j++;
                 }

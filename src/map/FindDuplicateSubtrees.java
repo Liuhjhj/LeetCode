@@ -7,8 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 /**
- * 寻找重复的子树
- * https://leetcode-cn.com/problems/find-duplicate-subtrees/
+ * <a href="https://leetcode-cn.com/problems/find-duplicate-subtrees/">寻找重复的子树</a>
  *
  * @author liuhjhj
  * @date 2022/3/4

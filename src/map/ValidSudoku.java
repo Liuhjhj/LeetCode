@@ -3,8 +3,7 @@ package map;
 import java.util.*;
 
 /**
- * 有效数独
- * https://leetcode-cn.com/problems/valid-sudoku/solution/
+ * <a href="https://leetcode-cn.com/problems/valid-sudoku/">有效数独</a>
  *
  * @author liuhjhj
  * @date 2022/3/4

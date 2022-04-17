@@ -3,10 +3,7 @@ package string;
 import java.util.*;
 
 /**
- * 迷你语法分析器
- * <p>
- * <a href="https://leetcode-cn.com/problems/mini-parser/">https://leetcode-cn.com/problems/mini-parser/</a>
- * </p>
+ * <a href="https://leetcode-cn.com/problems/mini-parser/">迷你语法分析器</a>
  *
  * @author liuhjhj
  * @date 2022/4/16

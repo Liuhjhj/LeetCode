@@ -1,8 +1,7 @@
 package string;
 
 /**
- * 翻转字符串
- * https://leetcode-cn.com/leetbook/read/array-and-string/cacxi/
+ * <a href="https://leetcode-cn.com/problems/reverse-string/">翻转字符串</a>
  *
  * @author liuhj
  * @date 2021/12/8 21:42
