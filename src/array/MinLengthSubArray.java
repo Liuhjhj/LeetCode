@@ -1,10 +1,9 @@
 package array;
 
 /**
- * 长度最小的子数组
- * https://leetcode-cn.com/leetbook/read/array-and-string/c0w4r/
- * 知识点: 前缀和+二分查找 || 滑动窗口
- * 我使用的是滑动窗口解法 O(n)时间复杂度
+ * <a href="https://leetcode-cn.com/problems/minimum-size-subarray-sum/">长度最小的子数组</a>
+ * <p>知识点: 前缀和+二分查找 || 滑动窗口</p>
+ * <p>此处使用的是滑动窗口解法 O(n)时间复杂度</p>
  *
  * @author liuhj
  * @date 2021/12/10 21:46

@@ -1,8 +1,7 @@
 package bfs;
 
 /**
- * 二叉树的最大深度
- * https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+ * <a href="https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/">二叉树的最大深度</a>
  *
  * @author liuhj
  * @date 2021/12/18 17:53

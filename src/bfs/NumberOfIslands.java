@@ -1,9 +1,8 @@
 package bfs;
 
 /**
- * 岛屿数量
- * https://leetcode-cn.com/problems/number-of-islands/
- * 知识点: 深/广度优先遍历
+ * <a href="https://leetcode-cn.com/problems/number-of-islands/">岛屿的个数</a>
+ * <p>知识点: 深/广度优先遍历</p>
  *
  * @author liuhj
  * @date 2021/12/11 21:36

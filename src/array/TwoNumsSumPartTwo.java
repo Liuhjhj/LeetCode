@@ -3,9 +3,8 @@ package array;
 import java.util.Arrays;
 
 /**
- * 两数之和-II: 输入有序数组
- * https://leetcode-cn.com/leetbook/read/array-and-string/cnkjg/
- * 知识点: 二分查找
+ * <a href="https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/">两数之和-II: 输入有序数组</a>
+ * <p>知识点: 二分查找</p>
  *
  * @author liuhj
  * @date 2021/12/8 22:01

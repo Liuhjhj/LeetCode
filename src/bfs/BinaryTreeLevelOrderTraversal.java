@@ -5,9 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 二叉树的层次遍历
- * https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
- * 知识点: 深/广度优先遍历
+ * <a href="https://leetcode-cn.com/problems/binary-tree-level-order-traversal/">二叉树的层次遍历</a>
+ * <p>知识点: 深/广度优先遍历</p>
  *
  * @author liuhj
  * @date 2021/12/15 23:01

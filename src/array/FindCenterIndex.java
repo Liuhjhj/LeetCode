@@ -1,8 +1,7 @@
 package array;
 
 /**
- * 寻找数组的中心索引
- * https://leetcode-cn.com/problems/find-the-middle-index-in-array/
+ * <a href="https://leetcode-cn.com/problems/find-pivot-index/">寻找数组的中心索引</a>
  *
  * @author liuhj
  * @date 2021年11月28日15:38:52

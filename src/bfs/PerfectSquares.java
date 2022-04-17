@@ -3,9 +3,8 @@ package bfs;
 import java.util.*;
 
 /**
- * 完全平方数
- * https://leetcode-cn.com/problems/perfect-squares/solution/
- * 知识点: 深/广度优先遍历, 动态规划
+ * <a href="https://leetcode-cn.com/problems/perfect-squares/">完全平方数</a>
+ * <p>知识点: 深/广度优先遍历, 动态规划</p>
  *
  * @author liuhj
  * @date 2021/12/12 20:31

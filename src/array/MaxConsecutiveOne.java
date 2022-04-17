@@ -1,8 +1,7 @@
 package array;
 
 /**
- * 最大连续一
- * https://leetcode-cn.com/leetbook/read/array-and-string/cd71t/
+ * <a href="https://leetcode-cn.com/problems/max-consecutive-ones/">最大连续一</a>
  *
  * @author liuhj
  * @date 2021/12/10 21:30

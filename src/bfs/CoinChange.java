@@ -3,9 +3,8 @@ package bfs;
 import java.util.*;
 
 /**
- * 零钱兑换
- * https://leetcode-cn.com/problems/coin-change/
- * 知识点: 深/广度优先遍历, 动态规划
+ * <a href="https://leetcode-cn.com/problems/coin-change/">零钱兑换</a>
+ * <p>知识点: 深/广度优先遍历, 动态规划</p>
  *
  * @author liuhj
  * @date 2021/12/12 22:07

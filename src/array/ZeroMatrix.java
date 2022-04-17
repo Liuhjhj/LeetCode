@@ -3,8 +3,7 @@ package array;
 import java.util.Arrays;
 
 /**
- * 零矩阵
- * https://leetcode-cn.com/leetbook/read/array-and-string/ciekh/
+ * <a href="https://leetcode-cn.com/problems/zero-matrix-lcci/">零矩阵</a>
  *
  * @author liuhj
  * @date 2021年12月4日10:01:52

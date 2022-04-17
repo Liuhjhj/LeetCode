@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 杨辉三角-II
- * https://leetcode-cn.com/leetbook/read/array-and-string/ctyt1/
- * 知识点: 动态规划
+ * <a href="https://leetcode-cn.com/problems/pascals-triangle-ii/">杨辉三角-II</a>
+ * <p>知识点: 动态规划</p>
  *
  * @author liuhj
  * @date 2021/12/11 14:54

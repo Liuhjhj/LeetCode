@@ -3,8 +3,7 @@ package bfs;
 import java.util.*;
 
 /**
- * 0-1矩阵
- * https://leetcode-cn.com/problems/01-matrix/
+ * <a href="https://leetcode-cn.com/problems/01-matrix/">0-1矩阵</a>
  *
  * @author liuhj
  * @date 2022/1/16 16:29

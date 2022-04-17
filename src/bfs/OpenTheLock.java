@@ -3,9 +3,8 @@ package bfs;
 import java.util.*;
 
 /**
- * 打开转盘锁
- * https://leetcode-cn.com/problems/open-the-lock/
- * 知识点: 深/广度优先遍历
+ * <a href="https://leetcode-cn.com/problems/open-the-lock/">打开转盘锁</a>
+ * <p>知识点: 深/广度优先遍历</p>
  *
  * @author liuhj
  * @date 2021/12/12 14:29

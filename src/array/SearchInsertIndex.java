@@ -1,9 +1,8 @@
 package array;
 
 /**
- * 搜索插入位置
- * https://leetcode-cn.com/leetbook/read/array-and-string/cxqdh/
- * 知识点: 二分查找
+ * <a href="https://leetcode-cn.com/problems/search-insert-position/">搜索插入位置</a>
+ * <p>知识点: 二分查找</p>
  *
  * @author liuhj
  * @date 2021年11月28日15:38:52

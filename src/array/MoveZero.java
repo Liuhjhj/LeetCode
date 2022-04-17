@@ -3,9 +3,8 @@ package array;
 import java.util.Arrays;
 
 /**
- * 移动零
- * https://leetcode-cn.com/leetbook/read/array-and-string/c6u02/
- * 知识点: 快慢指针法
+ * <a href="https://leetcode-cn.com/problems/move-zeroes/">移动零</a>
+ * <p>知识点: 快慢指针法</p>
  *
  * @author liuhj
  * @date 2021/12/11 15:55

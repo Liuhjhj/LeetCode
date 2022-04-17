@@ -4,8 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * 钥匙和房间
- * https://leetcode-cn.com/problems/keys-and-rooms/
+ * <a href="https://leetcode-cn.com/problems/keys-and-rooms/">钥匙和房间</a>
  *
  * @author liuhj
  * @date 2022/1/15 22:35

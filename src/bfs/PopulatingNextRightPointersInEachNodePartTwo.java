@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 填充每个节点的下一个右侧节点指针-II
+ * <a href="https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/">填充每个节点的下一个右侧节点指针-II</a>
  *
  * @author liuhj
  * @date 2021/12/18 22:04
@@ -13,6 +13,7 @@ public class PopulatingNextRightPointersInEachNodePartTwo {
 
     /**
      * 迭代耗时 2ms
+     *
      * @param root 根节点
      * @return 修改后的根节点
      */
@@ -75,8 +76,9 @@ public class PopulatingNextRightPointersInEachNodePartTwo {
 
     /**
      * 递归耗时 8ms
-     * @param parent 父节点
-     * @param child 子节点
+     *
+     * @param parent      父节点
+     * @param child       子节点
      * @param isLeftChild 是否是左节点
      */
     public void bfs(Node parent, Node child, boolean isLeftChild) {

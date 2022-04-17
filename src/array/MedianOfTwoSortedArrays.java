@@ -1,8 +1,7 @@
 package array;
 
 /**
- * 寻找两个正序数组的中位数
- * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+ * <a href="https://leetcode-cn.com/problems/median-of-two-sorted-arrays/">寻找两个正序数组的中位数</a>
  *
  * @author liuhjhj
  * @date 2022/3/27

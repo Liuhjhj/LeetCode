@@ -3,8 +3,7 @@ package bfs;
 import java.util.Arrays;
 
 /**
- * 被围绕的区域
- * https://leetcode-cn.com/problems/surrounded-regions/
+ * <a href="https://leetcode-cn.com/problems/surrounded-regions/">被围绕的区域</a>
  *
  * @author liuhj
  * @date 2021/12/19 16:06

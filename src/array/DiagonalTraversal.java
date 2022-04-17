@@ -6,9 +6,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 对角线遍历
- * https://leetcode-cn.com/leetbook/read/array-and-string/cuxq3/
- * 知识点: 复杂问题简单化
+ * <a href="https://leetcode-cn.com/problems/diagonal-traverse/">对角线遍历</a>
+ * <p>知识点: 复杂问题简单化</p>
  *
  * @author liuhj
  * @date 2021年12月4日11:18:34
@@ -70,7 +69,7 @@ public class DiagonalTraversal {
         /// int[][] nums = {{1, 2, 3, 4}};
         /// int[][] nums = {{1},{2}};
         /// int[][] nums = {{1,2},{3,4},{5,6}};
-        int[][] nums = {{1,2,3},{4,5,6}};
+        int[][] nums = {{1, 2, 3}, {4, 5, 6}};
         int[] result = findDiagonalOrder(nums);
         System.out.println(Arrays.toString(result));
     }

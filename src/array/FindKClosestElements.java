@@ -5,8 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 找到 K 个最接近的元素
- * https://leetcode-cn.com/problems/find-k-closest-elements/
+ * <a href="https://leetcode-cn.com/problems/find-k-closest-elements/">找到 K 个最接近的元素</a>
  *
  * @author liuhjhj
  * @date 2022/3/23

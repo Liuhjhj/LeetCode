@@ -3,8 +3,7 @@ package array;
 import java.util.Arrays;
 
 /**
- * 数组拆分-I
- * https://leetcode-cn.com/leetbook/read/array-and-string/c24he/
+ * <a href="https://leetcode-cn.com/problems/array-partition-i/">数组拆分-I</a>
  *
  * @author liuhj
  * @date 2021/12/8 21:51

@@ -4,8 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * 二叉树的序列化与反序列化
- * https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+ * <a href="https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/">二叉树的序列化与反序列化</a>
  *
  * @author liuhjhj
  * @date 2022/2/19

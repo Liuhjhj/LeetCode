@@ -3,8 +3,7 @@ package array;
 import java.util.Arrays;
 
 /**
- * 旋转矩阵
- * https://leetcode-cn.com/leetbook/read/array-and-string/clpgd/
+ * <a href="https://leetcode-cn.com/problems/rotate-matrix-lcci/">旋转矩阵</a>
  *
  * @author liuhj
  * @date 2021年12月3日21:57:22

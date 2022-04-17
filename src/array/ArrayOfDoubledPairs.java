@@ -5,8 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * 二倍数对数组
- * https://leetcode-cn.com/problems/array-of-doubled-pairs/
+ * <a href="https://leetcode-cn.com/problems/array-of-doubled-pairs/">二倍数对数组</a>
  *
  * @author liuhjhj
  * @date 2022/4/1

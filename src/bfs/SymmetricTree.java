@@ -9,9 +9,8 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * 对称二叉树
- * https://leetcode-cn.com/problems/symmetric-tree/
- * 知识点: 深/广度优先遍历
+ * <a href="https://leetcode-cn.com/problems/symmetric-tree/">对称二叉树</a>
+ * <p>知识点: 深/广度优先遍历</p>
  *
  * @author liuhj
  * @date 2021/12/15 22:28

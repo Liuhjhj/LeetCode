@@ -4,8 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 填充每个节点的下一个右侧节点指针
- * https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
+ * <a href="https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/">填充每个节点的下一个右侧节点指针</a>
  *
  * @author liuhj
  * @date 2021/12/18 20:16

@@ -6,8 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * 合并区间
- * https://leetcode-cn.com/leetbook/read/array-and-string/c5tv3/
+ * <a href="https://leetcode-cn.com/problems/merge-intervals/">合并区间</a>
  *
  * @author liuhj
  * @date 2021年12月1日20:56:26

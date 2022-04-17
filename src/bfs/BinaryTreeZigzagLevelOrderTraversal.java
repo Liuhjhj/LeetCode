@@ -3,9 +3,8 @@ package bfs;
 import java.util.*;
 
 /**
- * 二叉树的锯齿形层序遍历
- * https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
- * 知识点: 深/广度优先遍历
+ * <a href="https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/">二叉树的锯齿形层序遍历</a>
+ * <p>知识点: 深/广度优先遍历</p>
  *
  * @author liuhj
  * @date 2021/12/18 17:31
@@ -14,7 +13,7 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 
     public static List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
-        if (root == null){
+        if (root == null) {
             return result;
         }
         Queue<TreeNode> queue = new LinkedList<>();
@@ -28,10 +27,10 @@ public class BinaryTreeZigzagLevelOrderTraversal {
                 if (result.size() <= layer) {
                     result.add(new ArrayList<>());
                 }
-                if (layer %2 == 0){
+                if (layer % 2 == 0) {
                     result.get(layer).add(node.val);
-                }else{
-                    result.get(layer).add(0,node.val);
+                } else {
+                    result.get(layer).add(0, node.val);
                 }
                 if (node.left != null) {
                     queue.add(node.left);

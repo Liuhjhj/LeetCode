@@ -3,8 +3,7 @@ package array;
 import java.util.Arrays;
 
 /**
- * 找出第 k 小的距离对
- * https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/
+ * <a href="https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/">找出第 k 小的距离对</a>
  *
  * @author liuhjhj
  * @date 2022/3/30
