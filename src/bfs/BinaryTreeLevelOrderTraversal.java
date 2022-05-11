@@ -1,7 +1,8 @@
 package bfs;
 
+import pub.BinaryTreeNode;
+
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -13,13 +14,13 @@ import java.util.List;
  */
 public class BinaryTreeLevelOrderTraversal {
 
-    public static List<List<Integer>> levelOrder(TreeNode root) {
+    public static List<List<Integer>> levelOrder(BinaryTreeNode root) {
         List<List<Integer>> result = new ArrayList<>(8);
         bfs(result, root, 1);
         return result;
     }
 
-    public static void bfs(List<List<Integer>> result, TreeNode node, Integer layer) {
+    public static void bfs(List<List<Integer>> result, BinaryTreeNode node, Integer layer) {
         if (node == null) {
             return;
         }
@@ -29,11 +30,5 @@ public class BinaryTreeLevelOrderTraversal {
         result.get(layer).add(node.val);
         bfs(result, node.left, layer+1);
         bfs(result, node.right, layer+1);
-    }
-
-    static class TreeNode {
-        TreeNode left;
-        TreeNode right;
-        int val;
     }
 }

@@ -1,10 +1,11 @@
 package map;
 
-import lombok.Data;
+import pub.BinaryTreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Collectors;
 
 /**
  * <a href="https://leetcode-cn.com/problems/find-duplicate-subtrees/">寻找重复的子树</a>
@@ -14,22 +15,15 @@ import java.util.stream.Collectors;
  **/
 public class FindDuplicateSubtrees {
 
-    @Data
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
+    List<BinaryTreeNode> result = new ArrayList<>();
+    Map<String, BinaryTreeNode> map = new ConcurrentHashMap<>();
 
-    List<TreeNode> result = new ArrayList<>();
-    Map<String,TreeNode> map = new ConcurrentHashMap<>();
-
-    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+    public List<BinaryTreeNode> findDuplicateSubtrees(BinaryTreeNode root) {
         transferTreeToString(root);
         return result;
     }
 
-    public String transferTreeToString(TreeNode node) {
+    public String transferTreeToString(BinaryTreeNode node) {
         if (node == null) {
             // 这里必须要返回#， 不能返回空字符串
             // 解答错误: [0,0,0,0,null,null,0,null,null,null,0]

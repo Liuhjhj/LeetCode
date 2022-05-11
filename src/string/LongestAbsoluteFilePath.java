@@ -1,5 +1,7 @@
 package string;
 
+import pub.StringTreeNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,23 +13,6 @@ import java.util.List;
  * @date 2022/4/20
  **/
 public class LongestAbsoluteFilePath {
-
-    /**
-     * 构建一个目录树
-     */
-    static class TreeNode {
-        String val;
-        List<TreeNode> children;
-
-        TreeNode(String val) {
-            this();
-            this.val = val;
-        }
-
-        TreeNode() {
-            children = new ArrayList<>(16);
-        }
-    }
 
     public int lengthLongestPath(String input) {
         int result = 0;
@@ -45,20 +30,20 @@ public class LongestAbsoluteFilePath {
             return Arrays.stream(deeps).map(String::length).mapToInt(Integer::intValue).max().orElse(0);
         }
         // 存放根目录的数组, 可能有多个根目录
-        List<TreeNode> roots = new ArrayList<>(16);
+        List<StringTreeNode> roots = new ArrayList<>(16);
         for (String line : deeps) {
             String[] deepSplit = line.split("\t");
             // deepSplit的长度代表了当前文件或文件夹的深度
             // deepSplit的长度为1, 说明是根目录
             if (deepSplit.length == 1) {
-                roots.add(new TreeNode(deepSplit[0]));
+                roots.add(new StringTreeNode(deepSplit[0]));
                 continue;
             }
             // 拿到当前层的根目录
-            TreeNode lastRoot = roots.get(roots.size() - 1);
+            StringTreeNode lastRoot = roots.get(roots.size() - 1);
             // 当前层的根目录的名字
             StringBuilder path = new StringBuilder(lastRoot.val).append("/");
-            TreeNode nodeTemp = lastRoot;
+            StringTreeNode nodeTemp = lastRoot;
             // 遍历当前层的所有父目录
             for (int i = 1; i < deepSplit.length - 1; i++) {
                 nodeTemp = nodeTemp.children.get(nodeTemp.children.size() - 1);
@@ -71,7 +56,7 @@ public class LongestAbsoluteFilePath {
                 result = Math.max(result, path.length());
             }
             // 将当前层加到父目录的子节点里面
-            nodeTemp.children.add(new TreeNode(deepSplit[deepSplit.length - 1]));
+            nodeTemp.children.add(new StringTreeNode(deepSplit[deepSplit.length - 1]));
             path.setLength(0);
         }
         return result;

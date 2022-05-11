@@ -1,5 +1,7 @@
 package dfs;
 
+import pub.BinaryTreeNode;
+
 /**
  * <a href="https://leetcode.com/problems/validate-binary-search-tree/">验证二叉搜索树</a>
  *
@@ -8,17 +10,7 @@ package dfs;
  **/
 public class ValidateBinarySearchTree {
 
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
-    public boolean isValidBST(TreeNode root) {
+    public boolean isValidBST(BinaryTreeNode root) {
         return isSearchTree(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
@@ -30,7 +22,7 @@ public class ValidateBinarySearchTree {
      * @param max  最大值
      * @return 是否为二叉搜索树
      */
-    public boolean isSearchTree(TreeNode node, long min, long max) {
+    public boolean isSearchTree(BinaryTreeNode node, long min, long max) {
         if (node == null) {
             return true;
         }

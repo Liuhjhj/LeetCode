@@ -1,5 +1,7 @@
 package bfs;
 
+import pub.BinaryTreeNode;
+
 import java.util.*;
 
 /**
@@ -10,12 +12,12 @@ import java.util.*;
  */
 public class BinaryTreeLevelOrderTraversalPartTwo {
 
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+    public List<List<Integer>> levelOrderBottom(BinaryTreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<BinaryTreeNode> queue = new LinkedList<>();
         queue.add(root);
         int layer = 0;
         while (!queue.isEmpty()) {
@@ -23,7 +25,7 @@ public class BinaryTreeLevelOrderTraversalPartTwo {
             layer++;
             result.add(new ArrayList<>());
             for (int i = 0; i < size; i++) {
-                TreeNode node = queue.remove();
+                BinaryTreeNode node = queue.remove();
                 result.get(layer - 1).add(node.val);
                 if (node.left != null) {
                     queue.add(node.left);
@@ -35,11 +37,5 @@ public class BinaryTreeLevelOrderTraversalPartTwo {
         }
         Collections.reverse(result);
         return result;
-    }
-
-    static class TreeNode {
-        TreeNode left;
-        TreeNode right;
-        Integer val;
     }
 }

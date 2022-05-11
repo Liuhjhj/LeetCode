@@ -1,5 +1,7 @@
 package bfs;
 
+import pub.BinaryTreeNode;
+
 import java.util.*;
 
 /**
@@ -11,19 +13,19 @@ import java.util.*;
  */
 public class BinaryTreeZigzagLevelOrderTraversal {
 
-    public static List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    public static List<List<Integer>> zigzagLevelOrder(BinaryTreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<BinaryTreeNode> queue = new LinkedList<>();
         int layer = -1;
         queue.add(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
             layer++;
             for (int i = 0; i < size; i++) {
-                TreeNode node = queue.remove();
+                BinaryTreeNode node = queue.remove();
                 if (result.size() <= layer) {
                     result.add(new ArrayList<>());
                 }
@@ -41,11 +43,5 @@ public class BinaryTreeZigzagLevelOrderTraversal {
             }
         }
         return result;
-    }
-
-    static class TreeNode {
-        TreeNode left;
-        TreeNode right;
-        Integer val;
     }
 }
