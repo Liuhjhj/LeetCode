@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 /**
  * <a href="https://leetcode.cn/problems/replace-words/">单词替换</a>
- * <p>知识点: 字典数</p>
+ * <p>知识点: 字典树</p>
  *
  * @author liuhjhj
  * @date 2022年07月08日 23:37:53
